@@ -10,9 +10,9 @@ import threading
 from bs4 import BeautifulSoup
 from selenium.webdriver.common.action_chains import ActionChains
 
-username = 'prince_alibabua'
-locationofwebdriver = '//dellserver/BOND-GROUP/B - Michael/SQL/005 - Support Files/chromedriver.exe'
-videoid = 6926249803596762374
+username = 'username' #insert username
+locationofwebdriver = 'locationofchromedriver' #insert OS location of Chrome Driver
+videoid = 000000000000000000000 #insert the tiktok video id. Used to simulate ghost hover's over thumbnails
 videolistid = []
 threads = []
 def initializeproxy():
